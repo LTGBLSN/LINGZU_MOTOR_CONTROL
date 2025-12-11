@@ -372,51 +372,51 @@ int main(void)
 		  leg9_init_kp = (start_time/INIT_TIME) * LEG9_KP ;
 		  
 		  
-		  RobStride_01.RobStride_Motor_MIT_Control(leg1_big_angle, 0.0f, leg1_init_kp, 0.05f, 0.0f);
+//		  RobStride_01.RobStride_Motor_MIT_Control(leg1_big_angle, 0.0f, leg1_init_kp, 0.05f, 0.0f);
+//		  HAL_Delay(1);
+//		  RobStride_02.RobStride_Motor_MIT_Control(leg2_big_angle, 0.0f, leg2_init_kp, 0.05f, 0.0f);
+//		  HAL_Delay(1);
+//		  RobStride_03.RobStride_Motor_MIT_Control(leg3_big_angle, 0.0f, leg3_init_kp, 0.05f, 0.0f);
+//		  HAL_Delay(1);
+//		  RobStride_04.RobStride_Motor_MIT_Control(leg4_big_angle, 0.0f, leg4_init_kp, 0.05f, 0.0f);
+//		  HAL_Delay(1);
+//		  
+// 		  RobStride_05.RobStride_Motor_MIT_Control(bozi5_angle, 0.0f, bozi5_init_kp, 0.05f, 0.0f);
+//		  HAL_Delay(1);
+//		  
+//		  RobStride_06.RobStride_Motor_MIT_Control(leg6_small_angle, 0.0f, leg6_init_kp, 0.05f, 0.0f);
+//		  HAL_Delay(1);
+		  RobStride_07.RobStride_Motor_MIT_Control(leg7_small_angle, 0.0f, leg7_init_kp, 0.0f, 0.0f);
 		  HAL_Delay(1);
-		  RobStride_02.RobStride_Motor_MIT_Control(leg2_big_angle, 0.0f, leg2_init_kp, 0.05f, 0.0f);
-		  HAL_Delay(1);
-		  RobStride_03.RobStride_Motor_MIT_Control(leg3_big_angle, 0.0f, leg3_init_kp, 0.05f, 0.0f);
-		  HAL_Delay(1);
-		  RobStride_04.RobStride_Motor_MIT_Control(leg4_big_angle, 0.0f, leg4_init_kp, 0.05f, 0.0f);
-		  HAL_Delay(1);
-		  
- 		  RobStride_05.RobStride_Motor_MIT_Control(bozi5_angle, 0.0f, bozi5_init_kp, 0.05f, 0.0f);
-		  HAL_Delay(1);
-		  
-		  RobStride_06.RobStride_Motor_MIT_Control(leg6_small_angle, 0.0f, leg6_init_kp, 0.05f, 0.0f);
-		  HAL_Delay(1);
-		  RobStride_07.RobStride_Motor_MIT_Control(leg7_small_angle, 0.0f, leg7_init_kp, 0.05f, 0.0f);
-		  HAL_Delay(1);
-		  RobStride_08.RobStride_Motor_MIT_Control(leg8_small_angle, 0.0f, leg8_init_kp, 0.05f, 0.0f);
-		  HAL_Delay(1);
-		  RobStride_09.RobStride_Motor_MIT_Control(leg9_small_angle, 0.0f, leg9_init_kp, 0.05f, 0.0f);
-		  HAL_Delay(1);
+//		  RobStride_08.RobStride_Motor_MIT_Control(leg8_small_angle, 0.0f, leg8_init_kp, 0.05f, 0.0f);
+//		  HAL_Delay(1);
+//		  RobStride_09.RobStride_Motor_MIT_Control(leg9_small_angle, 0.0f, leg9_init_kp, 0.05f, 0.0f);
+//		  HAL_Delay(1);
 		  
 	  }
 	  else 
 	  {
 		  
-		  RobStride_01.RobStride_Motor_MIT_Control(leg1_big_angle, 0.0f, LEG1_KP, 0.05f, 0.0f);
+//		  RobStride_01.RobStride_Motor_MIT_Control(leg1_big_angle, 0.0f, LEG1_KP, 0.05f, 0.0f);
+//		  HAL_Delay(1);
+//		  RobStride_02.RobStride_Motor_MIT_Control(leg2_big_angle, 0.0f, LEG2_KP, 0.05f, 0.0f);
+//		  HAL_Delay(1);
+//		  RobStride_03.RobStride_Motor_MIT_Control(leg3_big_angle, 0.0f, LEG3_KP, 0.05f, 0.0f);
+//		  HAL_Delay(1);
+//		  RobStride_04.RobStride_Motor_MIT_Control(leg4_big_angle, 0.0f, LEG4_KP, 0.05f, 0.0f);
+//		  HAL_Delay(1);
+//		  
+//		  RobStride_05.RobStride_Motor_MIT_Control(bozi5_angle, 0.0f, BOZI_KP, 0.05f, 0.0f);
+//		  HAL_Delay(1);
+//		  
+//		  RobStride_06.RobStride_Motor_MIT_Control(leg6_small_angle, 0.0f, LEG6_KP, 0.05f, 0.0f);
+//		  HAL_Delay(1);
+		  RobStride_07.RobStride_Motor_MIT_Control(leg7_small_angle, 0.0f, LEG7_KP, 2.0f, 0.0f);
 		  HAL_Delay(1);
-		  RobStride_02.RobStride_Motor_MIT_Control(leg2_big_angle, 0.0f, LEG2_KP, 0.05f, 0.0f);
-		  HAL_Delay(1);
-		  RobStride_03.RobStride_Motor_MIT_Control(leg3_big_angle, 0.0f, LEG3_KP, 0.05f, 0.0f);
-		  HAL_Delay(1);
-		  RobStride_04.RobStride_Motor_MIT_Control(leg4_big_angle, 0.0f, LEG4_KP, 0.05f, 0.0f);
-		  HAL_Delay(1);
-		  
-		  RobStride_05.RobStride_Motor_MIT_Control(bozi5_angle, 0.0f, BOZI_KP, 0.05f, 0.0f);
-		  HAL_Delay(1);
-		  
-		  RobStride_06.RobStride_Motor_MIT_Control(leg6_small_angle, 0.0f, LEG6_KP, 0.05f, 0.0f);
-		  HAL_Delay(1);
-		  RobStride_07.RobStride_Motor_MIT_Control(leg7_small_angle, 0.0f, LEG7_KP, 0.05f, 0.0f);
-		  HAL_Delay(1);
-		  RobStride_08.RobStride_Motor_MIT_Control(leg8_small_angle, 0.0f, LEG8_KP, 0.05f, 0.0f);
-		  HAL_Delay(1);
-		  RobStride_09.RobStride_Motor_MIT_Control(leg9_small_angle, 0.0f, LEG9_KP, 0.05f, 0.0f);
-		  HAL_Delay(1);
+//		  RobStride_08.RobStride_Motor_MIT_Control(leg8_small_angle, 0.0f, LEG8_KP, 0.05f, 0.0f);
+//		  HAL_Delay(1);
+//		  RobStride_09.RobStride_Motor_MIT_Control(leg9_small_angle, 0.0f, LEG9_KP, 0.05f, 0.0f);
+//		  HAL_Delay(1);
 	  }
 	  
 	  
@@ -449,16 +449,17 @@ int main(void)
 //	  float motor6_angle = RobStride_06.Pos_Info.Angle;
 //	  float motor6_speed = RobStride_06.Pos_Info.Speed;
 
-//	  float motor7_angle = RobStride_07.Pos_Info.Angle;
+	  float motor7_angle = RobStride_07.Pos_Info.Angle;
 //	  float motor7_speed = RobStride_07.Pos_Info.Speed;
 
 //	  float motor8_angle = RobStride_08.Pos_Info.Angle;
 //	  float motor8_speed = RobStride_08.Pos_Info.Speed;
 
-	  float motor9_angle = RobStride_09.Pos_Info.Angle;
+//	  float motor9_angle = RobStride_09.Pos_Info.Angle;
 //	  float motor9_speed = RobStride_09.Pos_Info.Speed;
 
-	  usart6_printf("%f \r\n",motor9_angle);
+	  usart6_printf("%f,%f \r\n",motor7_angle,leg7_small_angle);
+	  HAL_Delay(1);
 	  
 	  
 	  
@@ -606,7 +607,7 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
             }
 			else if (RxData[0] == 0x07)
             {
-                RobStride_08.RobStride_Motor_Analysis(RxData, RXHeader.StdId);
+                RobStride_07.RobStride_Motor_Analysis(RxData, RXHeader.StdId);
             }
 			else if (RxData[0] == 0x08)
             {

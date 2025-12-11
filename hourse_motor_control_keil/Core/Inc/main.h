@@ -46,8 +46,8 @@ extern "C" {
 	#define HOURSE_BOZI_RANGE 0.5f * PI  //motor5
 	
 	//小腿幅度
-	#define HOURSE_SMALL_LEG_RANGE_FRONT 0.5f * PI  //motor5motor6
-	#define HOURSE_SMALL_LEG_RANGE_BEHIND 0.5f * PI  //motor7motor8
+	#define HOURSE_SMALL_LEG_RANGE_FRONT 0.15f * PI  
+	#define HOURSE_SMALL_LEG_RANGE_BEHIND 0.5f * PI  
 	
 	
 	//相位差(大腿)
@@ -76,7 +76,7 @@ extern "C" {
 	#define BOZI_KP 2.0f
 	
 	#define LEG6_KP 2.0f
-	#define LEG7_KP 2.0f
+	#define LEG7_KP 15.0f
 	#define LEG8_KP 2.0f
 	#define LEG9_KP 2.0f
 	
@@ -84,7 +84,7 @@ extern "C" {
 	
 	//共参
 	#define HOURSE_SPEED 0.001f//速度
-	#define INIT_TIME 1000.0f
+	#define INIT_TIME 1.0f
 	
 	
 	

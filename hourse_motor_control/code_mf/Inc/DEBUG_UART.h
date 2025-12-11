@@ -1,8 +1,0 @@
-//
-// Created by 21481 on 2025/8/31.
-//
-
-#ifndef BUBING_RM2025_DEBUG_UART_H
-#define BUBING_RM2025_DEBUG_UART_H
-
-#endif //BUBING_RM2025_DEBUG_UART_H
