@@ -46,7 +46,7 @@ extern "C" {
 	#define HOURSE_BOZI_RANGE 0.5f * PI  //motor5
 	
 	//Ð¡ÍÈ·ù¶È
-	#define HOURSE_SMALL_LEG_RANGE_FRONT 0.15f * PI  
+	#define HOURSE_SMALL_LEG_RANGE_FRONT 0.08f * PI  
 	#define HOURSE_SMALL_LEG_RANGE_BEHIND 0.5f * PI  
 	
 	
